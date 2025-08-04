@@ -1,0 +1,30 @@
+body {
+  background-color: #e0f7fa;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.game-area {
+  margin-top: 50px;
+}
+
+#ball {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#ball:active {
+  transform: scale(1.2);
+}
+
+#result {
+  font-size: 24px;
+  margin: 20px;
+  color: green;
+}
+
+#score {
+  font-size: 22px;
+  color: #d32f2f;
+}
